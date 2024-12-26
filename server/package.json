@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "fetching top 5 trends from X (formally known as twitter)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
+  "keywords": [
+    "twitter",
+    "fetching",
+    "trends"
+  ],
+  "author": "Rabi anando sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
